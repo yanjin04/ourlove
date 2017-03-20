@@ -110,7 +110,7 @@ function timeElapse(date){
 	if (seconds < 10) {
 		seconds = "0" + seconds;
 	}
-	var result = "<span class=\"digit\">" + days + "</span> days <span class=\"digit\">" + hours + "</span> hours <span class=\"digit\">" + minutes + "</span> minutes <span class=\"digit\">" + seconds + "</span> seconds"; 
+	var result = "<span class=\"digit\">" + Days + "</span> days <span class=\"digit\">" + Hours + "</span> hours <span class=\"digit\">" + Minutes + "</span> minutes <span class=\"digit\">" + Seconds + "</span> seconds"; 
 	$("#elapseClock").html(result);
 }
 
